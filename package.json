@@ -1,0 +1,35 @@
+{
+  "name": "@careteen/rm-rf-node_modules",
+  "version": "0.0.1",
+  "description": "🚀 Provide multiple project templates",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "bin": {
+    "careteen-rmnm": "./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/careteenL/rm-rf-node_modules.git"
+  },
+  "keywords": [],
+  "author": "careteenL <15074806497@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/careteenL/rm-rf-node_modules/issues"
+  },
+  "homepage": "https://github.com/careteenL/rm-rf-node_modules#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "hooks": {
+    "pre-commit": "npm run lint"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "io-spin": "^0.4.1"
+  }
+}
